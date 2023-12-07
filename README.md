@@ -1,6 +1,11 @@
 # node-demo
 node example 
 
+# Introduction <br>  
+The application allows users to explore the characters of the Star Wars universe as well as the details related to each one of them such as movies where they appear, home world, race, etc. Users can search characters by name in the given search bar.  <br> 
+The backend act as middleware between the frontend and the data sources by consuming the SWAPI and local JSON file and providing its own API to the frontend.  <br>  
+For the search function, it will query the SWAPI data source first. If no result, for example “Grogu”, it will query the local JSON files. If it is still no result, the frontend will display “Result Not Found”. Otherwise, it will display the character details as a grid.  <br>  
+
 # Installation <br>
 The application requires node.js 18.12.0, which can be installed by:  <br>
 apt install nodejs <br>
